@@ -4,7 +4,7 @@ import Score from "./Score";
 import Header from "./Header";
 import Card from "./Cards";
 import Footer from "./Footer";
-import data from "../../data.json";
+import data from "../data.json";
 
 class Game extends React.Component{
     state= {
@@ -13,10 +13,10 @@ class Game extends React.Component{
         topScore: 0
     };
 
-    componentDidMount(){
-        this.setState({ data: })
+    // componentDidMount(){
+    //     this.setState({ data: })
 
-    }
+    // }
     // function to handle correct guess
     handleCorrectGuess= newData => {
         const {score, topScore} = this.state;
@@ -58,7 +58,12 @@ class Game extends React.Component{
     }
     // handle item click
     
-    //render return
+    // //render return
+    // render() {
+    //     return (
+    //         // {this.state.data.map()}
+    //     )
+    // }
 
 }
 

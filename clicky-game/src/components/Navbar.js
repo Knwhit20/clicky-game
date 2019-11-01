@@ -9,7 +9,7 @@ const style = {
         fontSize: "20px" 
 }};
 
-function NavBar() {
+function Navbar() {
     return (
         <div>
             <div>
@@ -24,4 +24,4 @@ function NavBar() {
     )
 }
 
-export default NavBar;
+export default Navbar;

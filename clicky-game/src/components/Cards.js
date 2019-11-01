@@ -1,12 +1,10 @@
 import React from 'react';
 
-function Card(props) {
+function Cards(props) {
     return (
         <div role="img" onClick={() => props.handleClick(props.id)}>
-            
-
-        </div>
+            </div>
     )
 }
 
-export default Card
+export default Cards
