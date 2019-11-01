@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Score from "./Score";
 import Header from "./Header";
 import Card from "./Cards";
 import Footer from "./Footer";
@@ -36,13 +37,13 @@ class Game extends React.Component{
     
         })
     }
-
+    //reset data
     resetData = data => {
         const resetData = data.map(item => ({ ...item, clicked: false }));
         return this.shuffleData(resetData)
         
     }
-    
+    //shuffle data 
     shuffleData= data => {
         let i = data.length - 1;
         while(i > 0){

@@ -7,10 +7,10 @@ import Card from "./components/Cards"
 
 function App() {
   
-  return(
-    <Header />
-    <Footer />
-  )
+  return <Game />;
+  
 }
 
 export default App;
+
+

@@ -1,14 +1,7 @@
 import React from "react";
 
 const style = {
-    navbar: {
-        background: "purple",
-        justifyContent: "left",
-        color: "white",
-        padding: "20px",
-        fontSize: "20px"
-    },
-    jumbotron: {
+        jumbotron: {
         justifyContent: "center"
     }
 };
@@ -16,16 +9,7 @@ const style = {
 function Header() {
     return (
         <div>
-            <div>
-                <ul style={style.navbar} className="nav">
-                    <li className="nav-item">
-                        <a className="nav">Clicky Game</a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-
+        
             <div style= {style.jumbotron} class="jumbotron jumbotron-fluid">
                 <div class="container">
                     <h1 class="display-4">Clicky Game!</h1>
