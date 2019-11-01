@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Game from "./components/Game";
+// import Game from "./components/Game";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Navbar  from "./components/Navbar";
@@ -12,10 +12,8 @@ function App() {
   <Header />,
   <Navbar />,
   <Footer />,
-  <Game />
+  // <Game />
   )
-
-  
 }
 
 export default App;

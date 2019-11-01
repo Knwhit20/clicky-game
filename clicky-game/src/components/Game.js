@@ -13,8 +13,8 @@ class Game extends React.Component{
         topScore: 0
     };
 
-    // componentDidMount(){
-    //     this.setState({ data: })
+    componentDidMount(){
+        this.setState({ data })
 
     // }
     // function to handle correct guess
@@ -57,6 +57,7 @@ class Game extends React.Component{
         return data;
     }
     // handle item click
+
     
     // //render return
     // render() {
@@ -67,10 +68,11 @@ class Game extends React.Component{
 
 }
 
-
-
-
-
 export default Game
 
-//while  loops
+
+//create ghdeploy
+//hub create
+//git push origin master
+// yarn add gh-pages -D
+
