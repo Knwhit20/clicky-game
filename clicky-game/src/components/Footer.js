@@ -10,11 +10,9 @@ const style = {
 
 function Footer(){
     return(
-        <div>
-            <nav style={style.footer} className="navbar fixed-bottom navbar-light bg-light">
-                <a className="navbar-brand">Clicky Game</a>
-            </nav>
-        </div>
+        <nav style={style.footer} className="navbar navbar-light bg-light">
+            <a className="navbar-brand">Clicky Game</a>
+        </nav>
 
     )
 }
