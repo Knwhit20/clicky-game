@@ -7,7 +7,12 @@ const style = {
         justifyContent: "left",
         color: "white",
         padding: "20px",
-        fontSize: "20px"
+        fontSize: "20px",
+        fontFamily: 'ZCOOL XiaoWei',
+        
+    },
+    nav:{
+        fontSize:"30px"
     }
 };
 
@@ -17,7 +22,7 @@ export default function Navbar({score, topscore, message}) {
             <div>
                 <ul style={style.navbar} className="nav d-flex justify-content-around">
                     <li className="nav-item">
-                        <a className="nav">Clicky Game</a>
+                        <a style={style.nav} className="nav">Clicky Game</a>
                     </li>
                     <li className="nav-item">
                         <div>

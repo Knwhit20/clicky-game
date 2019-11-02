@@ -23,7 +23,7 @@ function Cards({handleClick, data}) {
                         {row.map((item) => {
                             return (
                                 <div className="card" onClick={() => handleClick(item.id)}>
-                                    <img src={item.image} className="card-img-top" alt="" />
+                                    <img src={item.image} className="card-img-top" alt="" style={{ objectFit: 'contain'}} />
                                 </div>
                             )
                         })}

@@ -2,7 +2,7 @@ import React from "react";
 
 const style = {
     footer: {
-        background: "purple",
+        backgroundColor: "purple",
         padding: "20px",
         justifyContent: "right"
     }
@@ -10,8 +10,8 @@ const style = {
 
 function Footer(){
     return(
-        <nav style={style.footer} className="navbar navbar-light bg-light">
-            <a className="navbar-brand">Clicky Game</a>
+        <nav style={style.footer} className="navbar">
+            <a className="navbar-brand"></a>
         </nav>
 
     )
